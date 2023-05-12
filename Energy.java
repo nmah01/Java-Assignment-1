@@ -20,4 +20,10 @@ public class Energy extends Physics {
     public double workDone(double force, double distance){
         return force * distance;
     }
+    public double acceleration (double finalvelocity, double initialvelocity, double timeinterval){
+        return (finalvelocity - initalvelocity) / timeinterval;
+ 
+    }
+    
 }
+
