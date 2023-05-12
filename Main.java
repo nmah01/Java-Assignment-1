@@ -51,6 +51,15 @@ public class Main {
                 double distance = sc.nextDouble();
                 System.out.println("WorkDone = " + calculator.workDone(force,distance));
             break;
+            case 6:
+                System.out.println("Input a given initialvelocity = ");
+                double initialvelocity = sc.nextDouble();
+                System.out.println("Input a given finalvelocity = ");
+                double finalvelocity = sc.nextDouble();
+                System.out.println("Input a given timeinterval = ");
+                double timeinterval = sc.nextDouble();
+                System.out.println("Acceleration = " = calculator.acceleration(initialvelocity,finalvelocity,timeinterval));
+                break;
         }
 
     }
