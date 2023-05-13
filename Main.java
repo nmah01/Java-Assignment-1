@@ -58,8 +58,30 @@ public class Main {
                 double finalvelocity = sc.nextDouble();
                 System.out.println("Input a given timeinterval = ");
                 double timeinterval = sc.nextDouble();
-                System.out.println("Acceleration = " = calculator.acceleration(initialvelocity,finalvelocity,timeinterval));
+                System.out.println("Acceleration = " + calculator.acceleration(initialvelocity,finalvelocity,timeinterval));
                 break;
+            case 7:
+                system.out.println("Input a given distance = ");
+                double distance = sc.nextDouble();
+                system.out.println("Input a given time = ");
+                double time = sc.nextDouble();
+                system.out,println("Velocity = " + caculator.velocity(distance,time));
+                break;
+            case 8:
+                System.out.println("Input  a given workdone = ");
+                double workdone = sc.nextDouble();
+                System.out.println("Input a given time = ");
+                double time = sc.nextDouble();
+                System.out.println("Power = " + calculator.power(workdone,time));
+            break;
+            case 9:
+                System.out.println("Input  a given current = ");
+                double current = sc.nextDouble();
+                System.out.println("Input a given resistance = ");
+                double resistance = sc.nextDouble();
+                System.out.println("Voltage = " + calculator.voltage(current,resistance));
+            break;
+                
         }
 
     }
