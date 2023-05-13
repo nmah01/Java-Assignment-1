@@ -24,6 +24,15 @@ public class Energy extends Physics {
         return (finalvelocity - initalvelocity) / timeinterval;
  
     }
+    public double velocity (double distance, double time){
+        return distance / time;
+    }
+    public double power (double work, double time){
+        return work /time;
+    }
+    public double voltage (double current, double resistance){
+        return current * resistance;
+    }
     
 }
 
