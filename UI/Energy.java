@@ -6,11 +6,11 @@ import static java.lang.Math.pow;
         }
 
         float potentialEnergy(float pmass, float height){
-            return multiply(pmass, height);
+            return multiply1(pmass, height);
         }
 
-        public double momentum(double smass, double svelocity){
-            return smass * svelocity;
+        float momentum(float smass, float svelocity){
+            return multiply (smass, svelocity);
         }
 
         public double force(double lmass, double acceleration){
