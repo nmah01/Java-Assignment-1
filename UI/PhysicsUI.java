@@ -63,7 +63,7 @@ public class PhysicsUI {
         momentum.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                mainUI3();
+                mainUI4();
             }
         });
 
@@ -147,4 +147,37 @@ public class PhysicsUI {
         });
     }
 
+    
+    JFrame frame5 = new JFrame("Window");
+
+    JLabel text4 = new JLabel("  ENTER mass:");
+    JLabel text5 = new JLabel("  ENTER height:");
+    JTextField textField4= new JTextField();
+    JTextField textField5= new JTextField();
+    JButton calculates=new JButton("calculate");
+
+
+    public void mainUI4()
+    {
+         frame5.setSize(150,200);
+        frame5.setLayout(new GridLayout(3,1));
+        frame5.setVisible(true);
+
+
+        frame5.add(text3);
+        frame5.add(textField3);
+        frame5.add(text4);
+        frame5.add(textField4);
+        frame5.add(calculate);
+        frame5.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
+        calculate.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Energy myObj= new Energy();
+                float answer=myObj.momentum(Float.parseFloat(textField4.getText()),Float.parseFloat(textField5.getText()));
+                JOptionPane.showMessageDialog(null,answer);
+            }
+        });
+    }
 }
