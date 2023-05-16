@@ -20,5 +20,8 @@ public class Physics {
         float k = 9.8f;
         return (float) (k *  pmass  * height);
     }
-
+    public float multiplyy(float num1,float num2){
+        
+        return num1 * num2;
+    }
 }
