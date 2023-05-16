@@ -10,7 +10,7 @@ import static java.lang.Math.pow;
         }
 
         float momentum(float smass, float svelocity){
-            return multiply (smass, svelocity);
+            return multiplyy(smass, svelocity);
         }
 
         public double force(double lmass, double acceleration){
