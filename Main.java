@@ -9,6 +9,7 @@ public class Main {
         System.out.println("Momentum, click 3");
         System.out.println("Force, click 4");
         System.out.println("Workdone, click 5");
+        System.out.println("velocity, click 6");
 
         Scanner sc = new Scanner(System.in);
         int choice = sc.nextInt();
@@ -50,6 +51,13 @@ public class Main {
                 System.out.println("Input a given Distance = ");
                 double distance = sc.nextDouble();
                 System.out.println("WorkDone = " + calculator.workDone(force,distance));
+            break;
+                 case 6:
+                System.out.println("Input  a given distance = ");
+                double distance = sc.nextDouble();
+                System.out.println("Input a given time = ");
+                double time = sc.nextDouble();
+                System.out.println("velocity = " + calculator.velocity(distance,time));
             break;
         }
 
