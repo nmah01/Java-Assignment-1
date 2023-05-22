@@ -23,4 +23,7 @@ public class Energy extends Physics {
     public double velocity(double distance, double time){
     return distance * time;
     }
+    public double power(double workDone, double time){
+    return workDone * time;
+    }
 }
