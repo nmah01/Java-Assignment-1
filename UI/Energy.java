@@ -12,12 +12,10 @@ import static java.lang.Math.pow;
         float momentum(float smass, float svelocity){
             return multiplyy(smass, svelocity);
         }
-
-        public double force(double lmass, double acceleration){
-            return lmass * acceleration;
+         float force(float lmass, float acceleration){
+            return multiplyy(lmass, acceleration);
         }
-
-        public double workDone(double force, double distance){
+         public double workDone(double force, double distance){
             return force * distance;
         }
     }
