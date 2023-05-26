@@ -67,6 +67,21 @@ public class Main {
                 double time = sc.nextDouble();
                 System.out.println("Power = " + calculator.power(workDone,time));
             break;
+            case 8:
+        System.out.println("Input a given finalvelocity = ");
+        double finalvelocity = sc.nextDouble();
+        System.out.println("Input a given initialvelocity = ");
+        double initialvelocity = sc.nextDouble();
+        system.out.println("Input a given time = ");
+        double time = sc.nextDouble();
+        System.out.println("Acceleration = " + caculator.acceleration(finalvelocity,initialvelocity,time));
+                break;
+            case 9:
+                system.out.println("Input a given current = ");
+                double current = sc.nextDouble();
+                system.out.println("Input a given resistance = ");
+                double resistance = sc.nextDouble();
+                system.out.println("Voltage = " + caculator.voltage(current,time))                                                                                                            ))
         }
 
     }
