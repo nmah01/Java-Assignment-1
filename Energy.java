@@ -26,4 +26,10 @@ public class Energy extends Physics {
     public double power(double workDone, double time){
     return workDone * time;
     }
+    public double acceleration (double finalvelocity, double initialvelocity, double time{
+        return finalvelocity - initialvelocity / time;
+    }
+    public double voltage (double current, double resistance){
+        return current * resistance;
+    }
 }
