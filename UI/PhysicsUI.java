@@ -183,8 +183,8 @@ public class PhysicsUI {
     
     JFrame frame6 = new JFrame("Window");
 
-    JLabel text5 = new JLabel("  ENTER your mass:");
-    JLabel text6 = new JLabel("  ENTER your velocity:");
+    JLabel text5 = new JLabel("  ENTER your force:");
+    JLabel text6 = new JLabel("  ENTER your distance:");
     JTextField textField5= new JTextField();
     JTextField textField6= new JTextField();
     JButton calculates=new JButton("calculate");
