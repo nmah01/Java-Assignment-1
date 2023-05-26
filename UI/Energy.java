@@ -15,7 +15,7 @@ import static java.lang.Math.pow;
          float force(float lmass, float acceleration){
             return multiplyy(lmass, acceleration);
         }
-         public double workDone(double force, double distance){
-            return force * distance;
+         float workDone(float force, float distance){
+            return  multiplyy(force, distance);
         }
     }
