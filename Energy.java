@@ -26,4 +26,5 @@ public class Energy extends Physics {
     public double power(double workDone, double time){
     return workDone * time;
     }
+    j
 }
